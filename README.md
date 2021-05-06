@@ -11,7 +11,7 @@
 - ***Creat new diractory with this command*** <br />
                 ```C:\Users\jhona>mkdir d:\my-env-folder``` <br />
 - ***Nevigate to created diractory and creat virtual enviornment*** <br />
-                ```C:\Users\jhona>python -m venv d:\my-env-folder\my-env``` <br />
+                ```C:\Users\jhona>python -m venv d:\my-env-folder\my-env --system-site-packages``` <br />
 - ***Activate VirualEnv*** <br />
                 ```C:\Users\jhona>cd /d d:\my-env-folder\my-env\Scripts\activate``` <br />
 - ***pip install Jupyter Lab, Tensorflow, SKlearn, (numPy will be installed with tensorflow automatically)*** <br />
